@@ -44,7 +44,7 @@ visitor = st.text_input("Jacky", placeholder="例如：王小華、李老師、�
 # 核心觀念：if - elif - else 條件判斷
 # ------------------------------------------
 # 第一層判斷：先檢查「有沒有輸入內容」？ 如果沒有輸入內容 如果有輸入內容 
-if visitor == ""
+if visitor == "":
     st.info(" 請在上方格子輸入名字，按下 Enter 看看會發生什麼事！")
 
 else:
